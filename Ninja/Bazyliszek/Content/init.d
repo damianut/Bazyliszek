@@ -4,5 +4,5 @@
 func void Ninja_Bazyliszek_Init() {
 
     // WRITE YOUR INITIALIZATIONS HERE
-
+    Wld_InsertNpc(Patch_Bazyliszek_Bazyliszek, "PC_HERO");
 };
