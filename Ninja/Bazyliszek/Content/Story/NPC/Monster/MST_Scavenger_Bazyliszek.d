@@ -7,7 +7,7 @@ instance Patch_Bazyliszek_Bazyliszek(Mst_Default_Scavenger_Demon)
 	attribute[ATR_HITPOINTS_MAX] = 500;
 	attribute[ATR_HITPOINTS] = 500;
 	B_SetVisuals_Scavenger_Demon();
-    Mdl_SetModelScale(self,2,2,2);
+    Mdl_SetModelScale(self,1.8,1.8,1.8);
 	Npc_SetToFistMode(self);
 	CreateInvItems(self,ItFoMuttonRaw,2);
 };
